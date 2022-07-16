@@ -13,6 +13,8 @@ html {
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: #030a1b;
+    perspective: 40rem;
 }
 
 .menu {
@@ -20,12 +22,25 @@ html {
     padding: 0 25rem;
     display: flex;
     justify-content: space-evenly;
+    transform-style: preserve-3d;
 }
 
 .menu-item {
     width: 20rem;
     height: 15rem;
     background-color: #5588dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 2rem rgba(100, 100, 255. .4);
+    opacity: 0.6;
+    transition: all 2s;
+}
+
+.menu:hover .menu-item:nth-child(1){
+    transform: rotateY(-70deg);
 }
 
 .menu-item {
