@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    padding: 0 25rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    width: 20rem;
+    height: 15rem;
+    background-color: #5588dd;
+}
+
+.menu-item {
+    font-size: 7rem;
+    color: #222;
+}
